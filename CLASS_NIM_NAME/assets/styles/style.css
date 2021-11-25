@@ -18,6 +18,9 @@
 }
 
 /* header  */
+header {
+  height: auto;
+}
 header .top-red img {
   height: 61px;
   width: 100%;
@@ -41,4 +44,6 @@ header nav ul li a {
   color: #007c51;
   text-decoration: none;
   font-family: "Abril Fatface", cursive;
+  letter-spacing: 2px;
+  font-size: 20px;
 }
