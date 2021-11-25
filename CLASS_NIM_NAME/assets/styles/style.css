@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: 'Abril Fatface', cursive; */
 }
 
 /* Bagian Rizki */
@@ -34,4 +36,9 @@ header nav ul {
 }
 header nav ul li {
   padding: 30px;
+}
+header nav ul li a {
+  color: #007c51;
+  text-decoration: none;
+  font-family: "Abril Fatface", cursive;
 }
