@@ -318,7 +318,6 @@ header .order-now a {
   width: 100%;
 }
 .order {
-  width: 70%;
   margin: auto;
 }
 .order .ti {
@@ -337,4 +336,8 @@ header .order-now a {
 .order .gogo img {
   width: 150px;
   margin: 20px;
+}
+.order .pict img {
+  width: 100%;
+  margin-top: 50px;
 }
