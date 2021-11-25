@@ -185,12 +185,6 @@ main > section .box-about-us {
 
 /* Bagian eka ===========================*/
 
-* {
-  padding: 0%;
-  margin: 0%;
-}
-
-/* header  */
 body {
   background-image: url("../img/PAGE-5/BG\ TEXTURE.png");
   background-size: cover;
@@ -262,31 +256,49 @@ header .order-now {
   height: 100px;
 }
 .signature {
-  width: 90%;
-  margin: auto;
+  width: 100%;
   margin-top: 50px;
+  padding-top: 100px;
   display: flex;
+  margin: auto;
   justify-content: center;
 }
 .signature .pizza {
-  width: 40%;
-  margin: 30px;
+  width: 45%;
+  margin-left: 50px;
 }
 .signature .pizza H1 {
   color: #f70008;
   font-family: "Exo 2", sans-serif;
+  letter-spacing: 3px;
+  font-size: 40px;
 }
 .signature .pizza p {
   font-family: "Poppins", sans-serif;
   color: #058054;
+  width: 90%;
 }
 .signature .pizza .size img {
-  width: 300px;
+  width: 470px;
+  margin-top: 10px;
+}
+.signature .definet {
+  width: 45%;
 }
 .signature .definet .quotes {
-  width: 400px;
+  width: 550px;
   margin: 30px;
+  margin-top: -25px;
 }
 .signature .definet .icon-pizza img {
-  width: 100px;
+  width: 140px;
+  margin-top: -60px;
+}
+
+.superior {
+  width: 100%;
+  margin-top: 80px;
+}
+.superior img {
+  width: 100%;
 }
