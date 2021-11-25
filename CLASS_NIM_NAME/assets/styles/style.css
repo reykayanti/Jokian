@@ -10,20 +10,56 @@
 
 /* Bagian Rizki========================= */
 main {
+  position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin-top: 100vh; /* sementara aja */
 }
-.box-our-menu {
-  width: 100%;
-  height: 10vh;
+main > section {
+  width: 90%;
+  height: 100%;
+  margin: auto;
 }
+/* our-menu */
 .box-our-menu {
   position: relative;
   width: 100%;
-  background-repeat: no-repeat;
+  height: 10vh;
+}
+.box-our-menu img {
+  width: 100%;
+}
+.box-our-menu img:nth-child(2) {
+  position: absolute;
+  top: -1.5em;
+  left: 32%;
+  width: 35%;
+}
+/* box-name-pizza */
+main > section .box-name-pizza {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box-name-pizza .box-name-all {
+  width: 100%;
+  height: 100%;
+  flex: 0 0 33.3%;
+  margin: auto;
+  padding-left: 3%;
+}
+.box-name-pizza .box-name-all img {
+  width: 332px;
+  height: 471px;
   background-size: cover;
-  background-image: url("assets/img/PAGE 3/our menu border.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Bagian eka ===========================*/
