@@ -17,7 +17,7 @@ main {
   position: relative;
   width: 100%;
   height: 100%;
-  margin-top: 100vh; /* sementara aja */
+  margin-top: 5rem;
 }
 main > section {
   width: 90%;
