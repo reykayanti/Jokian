@@ -18,10 +18,14 @@
 }
 
 /* header  */
+body {
+  background-image: url("../img/PAGE-5/BG\ TEXTURE.png");
+  background-size: cover;
+}
 header {
-  /* height: 1000px; */
+  height: 750px;
   background-image: url("../img/PAGE-1/pizza-page-1.png");
-  background-size: 70%;
+  background-size: 77%;
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -55,11 +59,8 @@ header .title-web {
   margin-left: 130px;
   margin-top: 100px;
 }
-header .title-web h1 {
-  font-size: 70px;
+header .title-web img {
   width: 600px;
-  color: #f70008;
-  font-family: "Exo 2", sans-serif;
 }
 header .title-web p {
   margin-top: 30px;
@@ -72,8 +73,47 @@ header .title-web p {
 header .order-now {
   margin-top: 50px;
   width: 350px;
-  height: 20px;
-  padding: 20px;
+  padding: 15px;
   background-color: #f70008;
+  color: white;
   text-align: center;
+  font-family: "Exo 2", sans-serif;
+  border-radius: 0 50px 50px 0;
+}
+.slider-gojek {
+  margin-top: -35px;
+  background-color: #058054;
+  /* height: 100px; */
+}
+.slider-gojek img {
+  height: 100px;
+}
+.signature {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.signature .pizza {
+  width: 40%;
+  margin: 30px;
+}
+.signature .pizza H1 {
+  color: #f70008;
+  font-family: "Exo 2", sans-serif;
+}
+.signature .pizza p {
+  font-family: "Poppins", sans-serif;
+  color: #058054;
+}
+.signature .pizza .size img {
+  width: 300px;
+}
+.signature .definet .quotes {
+  width: 400px;
+  margin: 30px;
+}
+.signature .definet .icon-pizza img {
+  width: 100px;
 }
