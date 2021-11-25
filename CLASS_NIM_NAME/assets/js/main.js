@@ -1,39 +1,34 @@
-$(document).ready(function () {
-  var width = 645;
-  var animationSpeed = 1000;
-  var pause = 3000;
-  var currentSlide = 1;
-
-  var $slider = $("#slider");
-  var $slideContainer = $slider.find(".slides");
-  var $slides = $slideContainer.find(".slide");
-
-  var interval;
-
-  function startSlider() {
-    interval = setInterval(function () {
-      $($slideContainer).animate(
-        {
-          "margin-left": "-=" + width,
-        },
-        animationSpeed,
-        firstSlide
-      );
-    }, pause);
-
-    function firstSlide() {
-      currentSlide++;
-      if (currentSlide === $slides.length) {
-        currentSlide = 1;
-        $slideContainer.css("margin-left", 0);
+// link terpilih
+$('a[href*="#"]')
+  // hapus link yang tidak terarah
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function (event) {
+    if (
+      location.pathname.replace(/^\//, "") ==
+        this.pathname.replace(/^\//, "") &&
+      location.hostname == this.hostname
+    ) {
+      var target = $(this.hash);
+      target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+      if (target.length) {
+        event.preventDefault();
+        $("html, body").animate(
+          {
+            scrollTop: target.offset().top,
+          },
+          1000,
+          function () {
+            var $target = $(target);
+            $target.focus();
+            if ($target.is(":focus")) {
+              return false;
+            } else {
+              $target.attr("tabindex", "-1");
+              $target.focus();
+            }
+          }
+        );
       }
     }
-  }
-
-  function stopSlider() {
-    clearInterval(interval);
-  }
-  $slider.on("mouseenter", stopSlider).on("mouseleave", startSlider);
-
-  startSlider();
-});
+  });
