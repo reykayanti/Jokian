@@ -385,6 +385,10 @@ header .order-now {
   font-family: "Exo 2", sans-serif;
   border-radius: 0 50px 50px 0;
 }
+header .order-now a {
+  color: white;
+  text-decoration: none;
+}
 .slider-gojek {
   margin-top: -35px;
   background-color: #058054;
@@ -432,11 +436,34 @@ header .order-now {
   width: 140px;
   margin-top: -60px;
 }
-
 .superior {
   width: 100%;
   margin-top: 80px;
 }
 .superior img {
   width: 100%;
+}
+.order {
+  margin: auto;
+}
+.order .ti {
+  width: 400px;
+  margin: auto;
+  padding-top: 150px;
+}
+.order .ti img {
+  width: 400px;
+}
+.order .gogo {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.order .gogo img {
+  width: 150px;
+  margin: 20px;
+}
+.order .pict img {
+  width: 100%;
+  margin-top: 50px;
 }
