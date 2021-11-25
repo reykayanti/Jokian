@@ -8,21 +8,21 @@
 
 /* Bagian Rizki */
 
-/* Bagian eka ===========================*/
+/* Bagian eka */
 
 * {
   padding: 0%;
   margin: 0%;
 }
 
-/* header  */
+/* header  ======================== */
 header .top-red img {
   height: 61px;
   width: 100%;
 }
 header nav {
   display: flex;
-  margin-left: 130px;
+  margin-right: 20px;
 }
 header .logo img {
   height: 80px;
