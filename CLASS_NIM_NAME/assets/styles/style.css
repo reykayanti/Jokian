@@ -64,12 +64,6 @@ main > section .box-name-pizza {
 
 /* Bagian eka ===========================*/
 
-* {
-  padding: 0%;
-  margin: 0%;
-}
-
-/* header  */
 body {
   background-image: url("../img/PAGE-5/BG\ TEXTURE.png");
   background-size: cover;
@@ -176,6 +170,14 @@ header .order-now {
   margin-top: -25px;
 }
 .signature .definet .icon-pizza img {
-  width: 130px;
+  width: 140px;
   margin-top: -60px;
+}
+
+.superior {
+  width: 100%;
+  margin-top: 80px;
+}
+.superior img {
+  width: 100%;
 }
