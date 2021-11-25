@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Exo+2:wght@900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -35,7 +35,11 @@ main {
 
 /* header  */
 header {
-  height: auto;
+  /* height: 1000px; */
+  background-image: url("../img/PAGE-1/pizza-page-1.png");
+  background-size: 70%;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 header .top-red img {
   height: 61px;
@@ -59,7 +63,33 @@ header nav ul li {
 header nav ul li a {
   color: #007c51;
   text-decoration: none;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Exo 2", sans-serif;
   letter-spacing: 2px;
   font-size: 20px;
+}
+header .title-web {
+  margin-left: 130px;
+  margin-top: 100px;
+}
+header .title-web h1 {
+  font-size: 70px;
+  width: 600px;
+  color: #f70008;
+  font-family: "Exo 2", sans-serif;
+}
+header .title-web p {
+  margin-top: 30px;
+  color: #007c51;
+  text-align: justify;
+  width: 600px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+header .order-now {
+  margin-top: 50px;
+  width: 350px;
+  height: 20px;
+  padding: 20px;
+  background-color: #f70008;
+  text-align: center;
 }
