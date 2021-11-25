@@ -7,6 +7,10 @@
   /* font-family: "Poppins", sans-serif; */
   /* font-family: 'Abril Fatface', cursive; */
 }
+:root {
+  --var-color-text: #116530;
+  --var-font-text: "Poppins", sans-serif;
+}
 
 /* Bagian Rizki========================= */
 main {
@@ -54,12 +58,129 @@ main > section .box-name-pizza {
   margin: auto;
   padding-left: 3%;
 }
-.box-name-pizza .box-name-all img {
+.box-name-pizza .box-name-all img:first-child {
   width: 332px;
   height: 471px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.box-name-pizza .box-name-all img:nth-child(2) {
+  position: absolute;
+  top: 19rem;
+  width: 200px;
+  margin-left: -17rem;
+  height: 48px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* box-about-us */
+main > section .box-about-us {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-top: 15%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: var(--var-font-text);
+}
+.box-about-us .box-about-text {
+  width: 100%;
+  height: 100%;
+  flex: 0 0 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box-about-text1 {
+  width: 100%;
+  height: 20%;
+}
+.box-about-text1 img {
+  width: 415px;
+  height: 91px;
+}
+.box-about-text2 {
+  width: 100%;
+  height: 30%;
+}
+.box-about-text2 img {
+  width: 266px;
+  height: 115px;
+}
+.box-about-text3 {
+  width: 70%;
+  margin: auto;
+  height: 50%;
+  text-align: justify;
+}
+.box-about-text3 p,
+.box-about-text3 span {
+  margin-top: -2rem;
+  color: var(--var-color-text);
+  font-size: 12px;
+}
+.box-about-text3 span {
+  font-size: 14px;
+  font-weight: bold;
+}
+.box-about-us .box-about-temp {
+  margin-top: 4rem;
+  width: 100%;
+  height: 589px;
+  flex: 0 0 50%;
+}
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+.box-about-temp div#slider {
+  overflow: hidden;
+}
+.box-about-temp div#slider figure img {
+  width: 20%;
+  border-radius: 5px;
+  float: left;
+}
+.box-about-temp div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
 }
 
 /* Bagian eka ===========================*/
