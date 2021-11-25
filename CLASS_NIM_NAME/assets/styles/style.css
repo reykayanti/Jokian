@@ -65,7 +65,7 @@ main > section .box-name-pizza {
   background-repeat: no-repeat;
   background-position: center;
 }
-.box-name-pizza .box-name-all img:nth-child(2) {
+.box-name-pizza .box-name-all a img:first-child {
   position: absolute;
   top: 19rem;
   width: 200px;
