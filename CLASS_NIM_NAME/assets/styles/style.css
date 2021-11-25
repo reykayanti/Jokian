@@ -8,7 +8,23 @@
   /* font-family: 'Abril Fatface', cursive; */
 }
 
-/* Bagian Rizki */
+/* Bagian Rizki========================= */
+main {
+  width: 100%;
+  height: 100vh;
+  margin-top: 100vh; /* sementara aja */
+}
+.box-our-menu {
+  width: 100%;
+  height: 10vh;
+}
+.box-our-menu {
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("assets/img/PAGE 3/our menu border.png");
+}
 
 /* Bagian eka ===========================*/
 
