@@ -32,9 +32,3 @@ $('a[href*="#"]')
       }
     }
   });
-$(document).ready(function () {
-  $(".menu-mobile").click(function () {
-    $("nav ul").toggleClass("active");
-    $(this).toggleClass("active");
-  });
-});
