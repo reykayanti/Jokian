@@ -199,9 +199,6 @@
   .footer-box3 .footer-box3-text2 a img {
     width: 28vw;
   }
-  .menu-mobile {
-    display: block;
-  }
   .order .ti img {
     width: 90vw;
   }
@@ -220,35 +217,6 @@
   .menu-mobile .fas {
     font-size: 36px;
     margin-top: 0.5rem;
-    color: #116530;
-  }
-  header nav ul {
-    display: none;
-    list-style: none;
-    position: absolute;
-    width: 0%;
-    right: 0.5rem;
-    top: 7rem;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #116530;
-    transition: 0.5s ease-in-out;
-  }
-  header nav ul.active {
-    display: flex;
-    width: 50%;
-  }
-  header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  .menu-mobile.active::before {
-    content: "\f057";
-    display: block;
-    font-family: "Font Awesome 6 Free";
-    font-weight: bold;
-    font-size: 30px;
     color: #116530;
   }
 }
