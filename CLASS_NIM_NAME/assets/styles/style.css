@@ -464,6 +464,9 @@ header .order-now a {
   margin: 30px;
   margin-top: -25px;
 }
+.signature .definet .icon-pizza {
+  display: flex;
+}
 .signature .definet .icon-pizza img {
   width: 140px;
   margin-top: -60px;
@@ -569,5 +572,20 @@ header .order-now a {
   }
   .signature .pizza {
     margin-left: 100px;
+  }
+  .signature .pizza .size img {
+    width: 350px;
+    margin-top: 10px;
+  }
+  .signature .definet .quotes {
+    width: 380px;
+    margin-left: 90px;
+  }
+  .signature .definet .icon-pizza {
+    display: flex;
+    justify-content: center;
+  }
+  .signature .definet .icon-pizza img {
+    display: none;
   }
 }
