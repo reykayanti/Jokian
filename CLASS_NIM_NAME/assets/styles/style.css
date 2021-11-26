@@ -588,4 +588,8 @@ header .order-now a {
   .signature .definet .icon-pizza img {
     display: none;
   }
+  .superior .why {
+    text-align: center;
+    margin: auto;
+  }
 }
