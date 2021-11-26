@@ -528,6 +528,9 @@ header .order-now a {
   width: 100%;
   margin-top: 50px;
 }
+.menu-mobile {
+  display: none;
+}
 
 /* responsive */
 @media only screen and (max-width: 920px) {
@@ -544,11 +547,11 @@ header .order-now a {
   header nav {
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
+    margin: 20px;
   }
-  header .logo img {
+  /* header .logo img {
     display: none;
-  }
+  } */
   header .title-web {
     margin-left: 30px;
   }
@@ -567,9 +570,9 @@ header .order-now a {
   .slider-gojek img {
     height: 30px;
   }
-  .signature {
+  /* .signature {
     margin: 10px;
-  }
+  } */
   .signature .pizza {
     margin-left: 100px;
   }
